@@ -1,0 +1,29 @@
+html,body,h1,h2,h3,h4,h5,p,a{
+  font-family:Open Sans;
+  background-color: #B00020;
+  color:#fafafa;
+}
+h1{
+  font-size: 2em;
+  text-align: left;
+  margin-top: 15px;
+  float: left;
+}
+logo-ia{
+  font-family: Sans Forgetica;
+}
+ul{
+  float: right;
+}
+li{
+  float: left;
+  margin: 0 10px;
+  list-style-type: none;
+}
+li a{
+  padding: 5px 10px;
+  text-decoration: none;
+}
+li a.active{
+  background-color: rgba(200,200,200,0.5);
+}

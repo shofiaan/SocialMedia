@@ -1,0 +1,18 @@
+html,body,h1,h2,h3,h4,h5,p,a{
+  font-family:Open Sans;
+  background-color: #B00020;
+  color:#fafafa;
+}
+html{
+  height: 100%;
+}
+p{
+  text-align: center;
+  font-size: 0.7em;
+}
+logo-ia{
+  font-family: Sans Forgetica;
+}
+sup{
+  font-size: 0.6em;
+}

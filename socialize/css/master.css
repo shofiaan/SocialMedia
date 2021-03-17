@@ -1,0 +1,73 @@
+html,body,h1,h2,h3,h4,h5,p,a{
+  font-family:Open Sans;
+  background-color: #fafafa;
+  color:#B00020;
+}
+logo-ia{
+  font-family: Sans Forgetica;
+}
+.login-form{
+  width:300px;
+  margin: 10% auto 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fafafa;
+}
+.login-form h2{
+  text-align: center;
+  width: 100%;
+  color:#B00020;
+}
+.login-form input{
+  color:#B00020;
+  height: 30px;
+  padding: 5px 10px;
+  margin-top: 25px;
+  text-align: center;
+  width: 280px;
+  border: none;
+  transition: 0.3s;
+}
+.login-form input[type=text]:hover,.login-form input[type=password]:hover{
+  width: 280px;
+  height: 30px;
+  transition: 0.3s;
+  border: 1px solid #B00020;
+}
+.login-form [type=submit]{
+  cursor:pointer;
+  border: 2px solid #B00020;
+  font-size: 20pt;
+  height: 50px;
+  width:300px;
+  transition: #fafafa;
+}
+.login-form [type=submit]:hover{
+  background-color: #B00020;
+  transition: 0.3s;
+  color:#fafafa;
+}
+table{
+  border-collapse: collapse;
+  border: 3px solid #B00020;
+}
+td.big{
+  border: 3px solid #B00020;
+}
+td.small{
+  height:60px;
+  width:60px;
+}
+.status-content{
+  border-radius: 20px;
+  border: 1px solid #B00020;
+  padding: 5px 20px;
+}
+.status-content p.date{
+  font-size: 8pt;
+  margin-top: -20px;
+}
+.status-content p.content{
+  padding-left: 20px;
+  font-size: 15pt;
+}

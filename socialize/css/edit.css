@@ -1,0 +1,20 @@
+html,body,h1,h2,h3,h4,h5,p,a{
+  font-family:Open Sans;
+  background-color: #fafafa;
+  color:#B00020;
+}
+.pp {
+    width: 300px;
+    border:2px solid #B00020;
+    height: 300px;
+    margin: 50px auto 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width:100%;
+}

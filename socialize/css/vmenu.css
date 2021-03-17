@@ -1,0 +1,36 @@
+html,body,h1,h2,h3,h4,h5,p,a{
+  font-family:Open Sans;
+  background-color: #fafafa;
+  color:#B00020;
+}
+html{
+  border-right: 3px solid #B00020;
+  height: 100%;
+}
+ul{
+  float: left;
+  margin-left: -35px;
+}
+li{
+  text-align: center;
+  margin: 10px;
+  list-style-type: none;
+}
+li a{
+  padding: 5px 10px;
+  text-decoration: none;
+}
+li a.active{
+  background-color: rgba(200,200,200,0.5);
+}
+.pp {
+    width: 100px;
+    border:2px solid #B00020;
+    height: 100px;
+    background-position: center;
+    margin: 50px auto 0 auto;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
